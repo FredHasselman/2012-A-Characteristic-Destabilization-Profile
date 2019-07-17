@@ -5,7 +5,7 @@ https://www.researchgate.net/profile/Fred_Hasselman/publication/225306593_A_Char
 
 ## **Requirements**
 
-Open the Matlab file: `EntropyPeak_NDPLS.m`, by running itthe results in the paper will be reproduced. However, it is important that the correct files, scripts and software are avalilable to the script:
+Open the Matlab file: `EntropyPeak_NDPLS.m`. Running it will reproduce the results reported in the paper. However, it is important that the correct files, scripts and software (MPlus) are avalilable to the script.
 
 ### RAW DATA FILE:
 
@@ -28,6 +28,7 @@ Open the Matlab file: `EntropyPeak_NDPLS.m`, by running itthe results in the pap
 
 * `mpdemo` - NOT INCLUDED IN THE ARCHIVE Download and install from the Mplus site: http://www.statmodel.com/demo.shtml
 * `Mplus_CRQA_ENT.inp` - Mplus input file
+
 
 > Compiled and programmed by Fred Hasselman (me@fredhasselman.com) - December 2011
 
