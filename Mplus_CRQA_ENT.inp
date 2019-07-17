@@ -1,0 +1,22 @@
+Title: Mixture modeling: 2 latent classes
+Data: File is CRQA_ENT_dl_Mplus.dat;
+Variable: Names are id y1 y2 y3 y4 y5 y6;
+  IDVARIABLE = id;
+Usevariables are y1 y2 y3 y4 y5 y6;
+Classes = c(2);
+Analysis: Type = mixture;
+starts 100 5;
+Model: 
+
+%overall%
+i s | y1@0 y2 y3 y4 y5 y6;
+i-s@0
+
+Output: TECH11;
+PLOT: 
+TYPE = PLOT3;
+series = y1 y2 y3 y4 y5 y6 (*);
+Savedata:
+  file is ENT_2cl.txt;
+  save is cprob;
+  format is free;
